@@ -164,11 +164,11 @@ values = st.slider('Selecione a amplitude', 0.0, 100.0, (25.0, 75.0))
 
 st.title('Seção: Elementos de mídia')
 st.write('<b>st.image</b>: exibir uma imagem.', unsafe_allow_html=True)
-image = Image.open('Alto-Fornos.jpg')
+image = Image.open('./arquivos-tutorial/Alto-Fornos.jpg')
 st.image(image, caption='Alto fornos Usiminas')
 
 st.write('<b>st.audio</b>: reproduzir um áudio.', unsafe_allow_html=True)
-audio_file = open('myaudio.ogg', 'rb')
+audio_file = open('./arquivos-tutorial/myaudio.ogg', 'rb')
 audio_bytes = audio_file.read()#
 st.audio(audio_bytes, format='audio/ogg')
 
