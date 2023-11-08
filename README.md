@@ -2,7 +2,8 @@
 
 ## Tutorial
 
-* O arquivo "streamlit_parte1.py" contém algumas funções nativas do streamlit. 
+* O arquivo "streamlit_parte1.py" contém algumas funções nativas do streamlit.
+
 Detalhes em https://streamlit.io/
 
 * O arquivo "streamlit_parte2.py" é composto pelas funções do arquivo anterior, entretanto com a atualização do uso da função sidebar para organizar em menus.
